@@ -34,7 +34,7 @@ Data Visualization is one of the core use-cases that we can think of when we thi
 knitr::include_graphics("tukeyQuote.jpg")
 ```
 
-In this lunch and learn, we will turn to Twitter and see just how sorry people are and for what and bringing that to life with Data Visualization.
+In this lunch and learn, we will turn to Twitter and see to look at covid and netflix tweets.
 
 ```{r fig.show = "hold", out.width = "100%", fig.align = "default", echo = FALSE}
 knitr::include_graphics("dsLogo.png")
@@ -414,7 +414,7 @@ scores_all %>%
   plotly::plot_ly(x = ~sentiment,  y = ~score, type = "bar", color = ~tweetCat)
 ```
 
-# Conclustion
+# Conclusion
 
 There are a lot of data visualization we did not cover, [this link](https://www.r-graph-gallery.com/) has a lot of great example of type of graphs you can plot.
 
